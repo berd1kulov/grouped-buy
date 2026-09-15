@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#f5f6f1"><meta name="description" content="Birga — совместные покупки для вашего дома">
+<title>Birga — вместе выгоднее</title>
+<link rel="stylesheet" href="/styles.css">
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+<script defer src="/app.js"></script>
+</head>
+<body>
+<div class="app-shell">
+<header><a class="brand" href="#home" aria-label="Birga — главная"><span class="brand-mark">b<span>•</span></span>birga<span class="brand-period">.</span></a><div class="header-right"><span class="location">⌖ Ташкент</span><button class="icon-button" data-nav="notifications" aria-label="Уведомления">♧<i id="unread"></i></button><button class="avatar" data-nav="profile" aria-label="Профиль">Б</button></div></header>
+<div id="mode-banner" class="mode-banner">Демо · все группы, участники и платежи тестовые</div>
+<main id="main"><div class="loading">Собираем всё в одном месте…</div></main>
+<footer class="desktop-footer"><span>birga. Вместе выгоднее.</span><span>Сделано для соседей, открыто для всех.</span></footer>
+</div>
+<nav class="bottom-nav" aria-label="Основное меню"><button data-nav="home"><span>⌂</span>Главная</button><button data-nav="orders"><span>▣</span>Мои покупки</button><button data-nav="how"><span>◎</span>Как это работает</button><button data-nav="profile"><span>◯</span>Профиль</button></nav>
+<dialog id="dialog"><div id="dialog-body"></div></dialog>
+<div id="toast" role="status" aria-live="polite"></div>
+</body></html>

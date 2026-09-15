@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="520" viewBox="0 0 800 520">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#e9ede3"/><stop offset="1" stop-color="#d4dfd0"/></linearGradient><linearGradient id="ac" x2="0" y2="1"><stop stop-color="#fff"/><stop offset=".8" stop-color="#f1f3ee"/><stop offset="1" stop-color="#c2c9c1"/></linearGradient><filter id="s"><feDropShadow dx="0" dy="20" stdDeviation="16" flood-color="#233924" flood-opacity=".15"/></filter></defs>
+<rect width="800" height="520" fill="url(#bg)"/><path d="M640 0v520M0 410h800" stroke="#c3cebd" stroke-width="2" opacity=".5"/>
+<ellipse cx="390" cy="328" rx="265" ry="34" fill="#829a7c" opacity=".08"/>
+<g filter="url(#s)" transform="translate(104 134) rotate(-5 300 100)"><rect width="590" height="175" rx="24" fill="url(#ac)"/><rect x="12" y="122" width="566" height="38" rx="10" fill="#88948a"/><path d="M20 132h550M20 140h550M20 148h550" stroke="#dce3da" stroke-width="4"/><path d="M15 119h560" stroke="#d9ded7" stroke-width="3"/><text x="280" y="78" font-family="Arial" font-size="16" fill="#a7b1a4" letter-spacing="3">CLIMATE</text><text x="508" y="89" font-family="Arial" font-size="24" fill="#91a7a0">24°</text><circle cx="550" cy="38" r="3" fill="#83ac86"/></g>
+<g opacity=".35" stroke="#fff" stroke-width="3" fill="none"><path d="M210 350q-20 40 0 80"/><path d="M310 350q-20 45 0 85"/><path d="M410 350q-20 40 0 80"/></g>
+<g transform="translate(690 335)"><path d="M0 130V0" stroke="#5b7456" stroke-width="5"/><path d="M0 70Q-70 45-45 10Q0 20 0 70M0 45Q60 20 45-10Q0 0 0 45M0 110Q60 85 50 45Q0 60 0 110" fill="#719367"/><path d="M-42 110h82l-10 75h-62z" fill="#bba991"/></g>
+</svg>
